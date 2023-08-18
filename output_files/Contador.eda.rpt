@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Contador
-Thu Aug 17 23:46:50 2023
+Fri Aug 18 10:24:32 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Aug 17 23:46:50 2023 ;
+; EDA Netlist Writer Status ; Successful - Fri Aug 18 10:24:32 2023 ;
 ; Revision Name             ; Contador                              ;
 ; Top-level Entity Name     ; Contador                              ;
 ; Family                    ; Cyclone IV E                          ;
@@ -45,34 +45,34 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------+---------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                        ;
-+---------------------------------------------------------------------------------------------------+------------------------+
-; Option                                                                                            ; Setting                ;
-+---------------------------------------------------------------------------------------------------+------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (VHDL) ;
-; Generate functional simulation netlist                                                            ; On                     ;
-; Truncate long hierarchy paths                                                                     ; Off                    ;
-; Map illegal HDL characters                                                                        ; Off                    ;
-; Flatten buses into individual nodes                                                               ; Off                    ;
-; Maintain hierarchy                                                                                ; Off                    ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                    ;
-; Enable glitch filtering                                                                           ; Off                    ;
-; Do not write top level VHDL entity                                                                ; Off                    ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                    ;
-; Architecture name in VHDL output netlist                                                          ; structure              ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                    ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                    ;
-+---------------------------------------------------------------------------------------------------+------------------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                 ;
++---------------------------------------------------------------------------------------------------+-----------------+
+; Option                                                                                            ; Setting         ;
++---------------------------------------------------------------------------------------------------+-----------------+
+; Tool Name                                                                                         ; ModelSim (VHDL) ;
+; Generate functional simulation netlist                                                            ; On              ;
+; Truncate long hierarchy paths                                                                     ; Off             ;
+; Map illegal HDL characters                                                                        ; Off             ;
+; Flatten buses into individual nodes                                                               ; Off             ;
+; Maintain hierarchy                                                                                ; Off             ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off             ;
+; Enable glitch filtering                                                                           ; Off             ;
+; Do not write top level VHDL entity                                                                ; Off             ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off             ;
+; Architecture name in VHDL output netlist                                                          ; structure       ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off             ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off             ;
++---------------------------------------------------------------------------------------------------+-----------------+
 
 
-+---------------------------------------------------------------------------+
-; Simulation Generated Files                                                ;
-+---------------------------------------------------------------------------+
-; Generated Files                                                           ;
-+---------------------------------------------------------------------------+
-; C:/Users/dinho/OneDrive/Documentos/Contador/simulation/qsim//Contador.vho ;
-+---------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Simulation Generated Files                                                      ;
++---------------------------------------------------------------------------------+
+; Generated Files                                                                 ;
++---------------------------------------------------------------------------------+
+; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/simulation/modelsim/Contador.vho ;
++---------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,28 +81,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
-    Info: Your use of Intel Corporation's design tools, logic functions 
-    Info: and other software and tools, and any partner logic 
-    Info: functions, and any output files from any of the foregoing 
-    Info: (including device programming or simulation files), and any 
-    Info: associated documentation or information are expressly subject 
-    Info: to the terms and conditions of the Intel Program License 
-    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
-    Info: the Intel FPGA IP License Agreement, or other applicable license
-    Info: agreement, including, without limitation, that your use is for
-    Info: the sole purpose of programming logic devices manufactured by
-    Info: Intel and sold by Intel or its authorized distributors.  Please
-    Info: refer to the applicable agreement for further details, at
-    Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Aug 17 23:46:50 2023
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/dinho/OneDrive/Documentos/Contador/simulation/qsim/ Contador -c Contador
+    Info: Processing started: Fri Aug 18 10:24:31 2023
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Contador -c Contador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file Contador.vho in folder "C:/Users/dinho/OneDrive/Documentos/Contador/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contador.vho in folder "C:/Users/jan13/Documents/TrabCd2/Contador-fpga/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4642 megabytes
-    Info: Processing ended: Thu Aug 17 23:46:50 2023
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4652 megabytes
+    Info: Processing ended: Fri Aug 18 10:24:32 2023
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

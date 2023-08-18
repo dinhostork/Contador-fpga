@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/dinho/OneDrive/Documentos/Contador/simulation/qsim
 Econtador
-Z1 w1692326810
+Z1 w1692361256
 Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
 Z3 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
 Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -19,24 +19,24 @@ Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
-!i122 8
-R0
-Z10 8Contador.vho
-Z11 FContador.vho
+!i122 14
+Z10 dC:/Users/jan13/Documents/TrabCd2/Contador-fpga/simulation/qsim
+Z11 8Contador.vho
+Z12 FContador.vho
 l0
-L80 1
-VQe`1ECBFZFnjUN306n:f]1
-!s100 5G]Pfz1F04J>obTENn^_W3
-Z12 OV;C;2020.1;71
+L37 1
+VBE4`T8>cM4S^WoMJdjiHa0
+!s100 EML2ZTgZ@1QVlB@E;DV^?2
+Z13 OV;C;2020.1;71
 32
-Z13 !s110 1692326811
+Z14 !s110 1692361258
 !i10b 1
-Z14 !s108 1692326811.000000
-Z15 !s90 -work|work|Contador.vho|
-Z16 !s107 Contador.vho|
+Z15 !s108 1692361258.000000
+Z16 !s90 -work|work|Contador.vho|
+Z17 !s107 Contador.vho|
 !i113 1
-Z17 o-work work
-Z18 tExplicit 1 CvgOpt 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
 Astructure
 R2
 R3
@@ -46,65 +46,65 @@ R6
 R7
 R8
 R9
-DEx4 work 8 contador 0 22 Qe`1ECBFZFnjUN306n:f]1
-!i122 8
-l329
-L120 2669
-VYER<N2>?=WXIm`a3Q1mNP2
-!s100 =c`2a:[F3l2[0`^g0EP^f1
-R12
-32
+DEx4 work 8 contador 0 22 BE4`T8>cM4S^WoMJdjiHa0
+!i122 14
+l256
+L58 2479
+VL]UM24j6EgBbTc]Gab_H?1
+!s100 F1`3l?H5=id21iM4PkH4k1
 R13
-!i10b 1
+32
 R14
+!i10b 1
 R15
 R16
-!i113 1
 R17
+!i113 1
 R18
+R19
 Econtador_vhd_vec_tst
-R1
+Z20 w1692361255
 R7
 R8
-!i122 9
-R0
-Z19 8Waveform.vwf.vht
-Z20 FWaveform.vwf.vht
+!i122 15
+R10
+Z21 8Waveform1.vwf.vht
+Z22 FWaveform1.vwf.vht
 l0
 L32 1
 VjEzLE6oB2g00TA=>UoH3n2
 !s100 HMMoPbo74<O47WclnVP]N1
-R12
-32
 R13
-!i10b 1
+32
 R14
-Z21 !s90 -work|work|Waveform.vwf.vht|
-Z22 !s107 Waveform.vwf.vht|
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform1.vwf.vht|
+Z24 !s107 Waveform1.vwf.vht|
 !i113 1
-R17
 R18
+R19
 Acontador_arch
 R7
 R8
-Z23 DEx4 work 20 contador_vhd_vec_tst 0 22 jEzLE6oB2g00TA=>UoH3n2
-!i122 9
+Z25 DEx4 work 20 contador_vhd_vec_tst 0 22 jEzLE6oB2g00TA=>UoH3n2
+!i122 15
 l73
-L34 80
-V`J;V5WOnHKPFH81Qcg@XQ0
-!s100 B9jBYIDAabjKPlVJQmI_f2
-R12
-32
+Z26 L34 80
+VLAWIjI77jmMKAYX=Gb?K^3
+!s100 nQQFMFIo:JE3TEE<9f`mM0
 R13
-!i10b 1
+32
 R14
-R21
-R22
+!i10b 1
+R15
+R23
+R24
 !i113 1
-R17
 R18
+R19
 Ehard_block
-R1
+Z27 w1692326810
 R4
 R2
 R6
@@ -113,22 +113,22 @@ R8
 R3
 !i122 8
 R0
-R10
 R11
+R12
 l0
 L35 1
 VB]0;STalBkCB1_B4BXQDW2
 !s100 >mXi5[`cD`bFC`UBKA<om3
-R12
-32
 R13
+32
+Z28 !s110 1692326811
 !i10b 1
-R14
-R15
+Z29 !s108 1692326811.000000
 R16
-!i113 1
 R17
+!i113 1
 R18
+R19
 Astructure
 R4
 R2
@@ -142,13 +142,13 @@ l65
 L51 20
 Via>5o7W??azG@W@@eFOTF0
 !s100 [5;Wd8QGQ>@2NGoJ1I]Y43
-R12
-32
 R13
+32
+R28
 !i10b 1
-R14
-R15
+R29
 R16
-!i113 1
 R17
+!i113 1
 R18
+R19
