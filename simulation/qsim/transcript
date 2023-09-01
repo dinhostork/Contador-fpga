@@ -1,35 +1,52 @@
 # do Contador.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD
 # Start time: 01:10:24 on Sep 01,2023
+=======
+# Start time: 09:20:58 on Aug 18,2023
+>>>>>>> origin/main
 # vcom -work work Contador.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package VITAL_Timing
 # -- Loading package VITAL_Primitives
-# -- Loading package cycloneive_atom_pack
-# -- Loading package cycloneive_components
-# -- Compiling entity hard_block
-# -- Compiling architecture structure of hard_block
 # -- Loading package dffeas_pack
 # -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
 # -- Compiling entity Contador
 # -- Compiling architecture structure of Contador
+<<<<<<< HEAD
 # End time: 01:10:24 on Sep 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 01:10:24 on Sep 01,2023
 # vcom -work work Waveform2.vwf.vht 
+=======
+# End time: 09:20:58 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:20:58 on Aug 18,2023
+# vcom -work work Waveform1.vwf.vht 
+>>>>>>> origin/main
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Contador_vhd_vec_tst
 # -- Compiling architecture Contador_arch of Contador_vhd_vec_tst
+<<<<<<< HEAD
 # End time: 01:10:24 on Sep 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Contador_vhd_vec_tst 
 # Start time: 01:10:24 on Sep 01,2023
+=======
+# End time: 09:20:58 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Contador_vhd_vec_tst 
+# Start time: 09:20:58 on Aug 18,2023
+>>>>>>> origin/main
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -41,10 +58,10 @@
 # Loading cycloneive.cycloneive_atom_pack(body)
 # Loading cycloneive.cycloneive_components
 # Loading work.contador(structure)
-# Loading work.hard_block(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
 # Loading cycloneive.cycloneive_io_ibuf(arch)
+<<<<<<< HEAD
 # Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
 # Loading cycloneive.cycloneive_ena_reg(behave)
 # Loading altera.dffeas(vital_dffeas)
@@ -53,4 +70,12 @@
 # Expect performance to be adversely affected.
 # after#35
 # End time: 01:10:25 on Sep 01,2023, Elapsed time: 0:00:01
+=======
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# ** Warning: Design size of 15809 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# after#33
+# End time: 09:20:59 on Aug 18,2023, Elapsed time: 0:00:01
+>>>>>>> origin/main
 # Errors: 0, Warnings: 1

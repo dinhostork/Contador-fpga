@@ -1,5 +1,9 @@
 Analysis & Synthesis report for Contador
+<<<<<<< HEAD
 Fri Sep 01 01:02:36 2023
+=======
+Fri Aug 18 10:23:58 2023
+>>>>>>> origin/main
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -46,7 +50,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
+<<<<<<< HEAD
 ; Analysis & Synthesis Status        ; Successful - Fri Sep 01 01:02:36 2023       ;
+=======
+; Analysis & Synthesis Status        ; Successful - Fri Aug 18 10:23:58 2023       ;
+>>>>>>> origin/main
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; Contador                                    ;
 ; Top-level Entity Name              ; Contador                                    ;
@@ -154,15 +162,19 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.02        ;
+; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+<<<<<<< HEAD
 ;     Processors 2-4         ;   0.0%      ;
+=======
+;     Processors 2-16        ;   0.1%      ;
+>>>>>>> origin/main
 +----------------------------+-------------+
 
 
@@ -171,19 +183,19 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
-; Contador.vhd                     ; yes             ; User VHDL File               ; C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd                   ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc      ;         ;
-; db/lpm_divide_ihm.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/lpm_divide_ihm.tdf          ;         ;
-; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/sign_div_unsign_akh.tdf     ;         ;
-; db/alt_u_div_84f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/alt_u_div_84f.tdf           ;         ;
-; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/add_sub_7pc.tdf             ;         ;
-; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/add_sub_8pc.tdf             ;         ;
-; db/lpm_divide_o9m.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/lpm_divide_o9m.tdf          ;         ;
-; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/sign_div_unsign_dkh.tdf     ;         ;
-; db/alt_u_div_e4f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/dinho/OneDrive/Documentos/Contador/db/alt_u_div_e4f.tdf           ;         ;
+; Contador.vhd                     ; yes             ; User VHDL File               ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd                ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; e:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; e:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc      ;         ;
+; db/lpm_divide_ihm.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/lpm_divide_ihm.tdf       ;         ;
+; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/sign_div_unsign_akh.tdf  ;         ;
+; db/alt_u_div_84f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/alt_u_div_84f.tdf        ;         ;
+; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/add_sub_7pc.tdf          ;         ;
+; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/add_sub_8pc.tdf          ;         ;
+; db/lpm_divide_o9m.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/lpm_divide_o9m.tdf       ;         ;
+; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/sign_div_unsign_dkh.tdf  ;         ;
+; db/alt_u_div_e4f.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/alt_u_div_e4f.tdf        ;         ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 
 
@@ -338,7 +350,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -348,62 +360,98 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+<<<<<<< HEAD
     Info: Processing started: Fri Sep 01 01:02:18 2023
+=======
+    Info: Processing started: Fri Aug 18 10:23:45 2023
+>>>>>>> origin/main
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Contador -c Contador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file contador.vhd
-    Info (12022): Found design unit 1: Contador-Behavioral File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 15
-    Info (12023): Found entity 1: Contador File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 5
+    Info (12022): Found design unit 1: Contador-Behavioral File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 15
+    Info (12023): Found entity 1: Contador File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 5
 Info (12127): Elaborating entity "Contador" for the top level hierarchy
+<<<<<<< HEAD
 Warning (10036): Verilog HDL or VHDL warning at Contador.vhd(19): object "binary_digits" assigned a value but never read File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 19
 Info (278001): Inferred 2 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 98
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 99
 Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 98
 Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 98
+=======
+Warning (10036): Verilog HDL or VHDL warning at Contador.vhd(19): object "binary_digits" assigned a value but never read File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 19
+Warning (10492): VHDL Process Statement warning at Contador.vhd(60): signal "count" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 60
+Warning (10492): VHDL Process Statement warning at Contador.vhd(61): signal "count" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 61
+Warning (10492): VHDL Process Statement warning at Contador.vhd(63): signal "Dd" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 63
+Warning (10492): VHDL Process Statement warning at Contador.vhd(64): signal "Du" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 64
+Info (278001): Inferred 2 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 60
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 61
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 60
+Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 60
+>>>>>>> origin/main
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ihm.tdf
-    Info (12023): Found entity 1: lpm_divide_ihm File: C:/Users/dinho/OneDrive/Documentos/Contador/db/lpm_divide_ihm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_ihm File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/lpm_divide_ihm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_akh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/dinho/OneDrive/Documentos/Contador/db/sign_div_unsign_akh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/sign_div_unsign_akh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_84f.tdf
-    Info (12023): Found entity 1: alt_u_div_84f File: C:/Users/dinho/OneDrive/Documentos/Contador/db/alt_u_div_84f.tdf Line: 27
+    Info (12023): Found entity 1: alt_u_div_84f File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/alt_u_div_84f.tdf Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_7pc.tdf
-    Info (12023): Found entity 1: add_sub_7pc File: C:/Users/dinho/OneDrive/Documentos/Contador/db/add_sub_7pc.tdf Line: 23
+    Info (12023): Found entity 1: add_sub_7pc File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/add_sub_7pc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
+<<<<<<< HEAD
     Info (12023): Found entity 1: add_sub_8pc File: C:/Users/dinho/OneDrive/Documentos/Contador/db/add_sub_8pc.tdf Line: 23
 Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 99
 Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 99
+=======
+    Info (12023): Found entity 1: add_sub_8pc File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/add_sub_8pc.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 61
+Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/Contador.vhd Line: 61
+>>>>>>> origin/main
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_o9m.tdf
-    Info (12023): Found entity 1: lpm_divide_o9m File: C:/Users/dinho/OneDrive/Documentos/Contador/db/lpm_divide_o9m.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_o9m File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/lpm_divide_o9m.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/Users/dinho/OneDrive/Documentos/Contador/db/sign_div_unsign_dkh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/sign_div_unsign_dkh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_e4f.tdf
+<<<<<<< HEAD
     Info (12023): Found entity 1: alt_u_div_e4f File: C:/Users/dinho/OneDrive/Documentos/Contador/db/alt_u_div_e4f.tdf Line: 27
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
     Warning (13310): Register "count[0]" is converted into an equivalent circuit using register "count[0]~_emulated" and latch "count[0]~1" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 68
     Warning (13310): Register "count[1]" is converted into an equivalent circuit using register "count[1]~_emulated" and latch "count[0]~1" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 68
     Warning (13310): Register "count[6]" is converted into an equivalent circuit using register "count[6]~_emulated" and latch "count[0]~1" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 68
     Warning (13310): Register "count[5]" is converted into an equivalent circuit using register "count[5]~_emulated" and latch "count[0]~1" File: C:/Users/dinho/OneDrive/Documentos/Contador/Contador.vhd Line: 68
+=======
+    Info (12023): Found entity 1: alt_u_div_e4f File: C:/Users/jan13/Documents/TrabCd2/Contador-fpga/db/alt_u_div_e4f.tdf Line: 27
+>>>>>>> origin/main
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 227 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 14 output pins
+<<<<<<< HEAD
     Info (21061): Implemented 210 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
     Info: Peak virtual memory: 4801 megabytes
     Info: Processing ended: Fri Sep 01 01:02:37 2023
     Info: Elapsed time: 00:00:19
     Info: Total CPU time (on all processors): 00:00:39
+=======
+    Info (21061): Implemented 121 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Fri Aug 18 10:23:58 2023
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:08
+>>>>>>> origin/main
 
 

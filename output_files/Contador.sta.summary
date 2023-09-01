@@ -7,6 +7,7 @@ Slack : -5.113
 TNS   : -50.439
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
+<<<<<<< HEAD
 Slack : -4.500
 TNS   : -29.433
 
@@ -16,6 +17,13 @@ TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
 Slack : 0.889
+=======
+Slack : -1.278
+TNS   : -8.941
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.502
+>>>>>>> origin/main
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'clk50'
@@ -51,6 +59,7 @@ Slack : -4.575
 TNS   : -43.449
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
+<<<<<<< HEAD
 Slack : -4.078
 TNS   : -26.744
 
@@ -60,6 +69,13 @@ TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
 Slack : 0.864
+=======
+Slack : -1.075
+TNS   : -7.518
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.455
+>>>>>>> origin/main
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'clk50'
@@ -95,11 +111,19 @@ Slack : -2.013
 TNS   : -21.337
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
+<<<<<<< HEAD
 Slack : -1.675
 TNS   : -10.906
 
 Type  : Fast 1200mV 0C Model Hold 'clk50'
 Slack : 0.230
+=======
+Slack : -0.063
+TNS   : -0.438
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.232
+>>>>>>> origin/main
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
@@ -124,6 +148,7 @@ TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk50'
 Slack : -3.000
+<<<<<<< HEAD
 TNS   : -28.757
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset'
@@ -133,5 +158,8 @@ TNS   : -3.000
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -1.000
 TNS   : -7.000
+=======
+TNS   : -10.917
+>>>>>>> origin/main
 
 ------------------------------------------------------------
