@@ -3,22 +3,23 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 
 entity Contador is
-    Port ( clk : in STD_LOGIC;
-           reset : in STD_LOGIC;
+    Port ( reset : in STD_LOGIC;
+			  count_dir: in STD_LOGIC;
 			  A7, B7, C7, D7, E7, F7, G7 : out STD_LOGIC;
-			  A6, B6, C6, D6, E6, F6, G6 : out STD_LOGIC
-
+			  A6, B6, C6, D6, E6, F6, G6 : out STD_LOGIC;
+			  clk50  : IN BIT
 		);
            
 end Contador;
 
 architecture Behavioral of Contador is
-    signal count : integer range 0 to 99 := 0;
+    signal count : integer range 0 to 100 := 0;
 	 signal Dd, Du : integer range 0 to 9 := 0;
     signal segments_d, segments_u : STD_LOGIC_VECTOR(6 downto 0);
     signal binary_digits : STD_LOGIC_VECTOR(6 downto 0);
 	 type segment_array is array (0 to 99) of STD_LOGIC_VECTOR(6 downto 0);
-
+	 signal clk: std_logic:= '0';
+	
 	constant seven_segment : segment_array := (
         "0000001", "1001111", "0010010", "0000110", "1001100", -- 0-4
         "0100100", "0100000", "0001111", "0000000", "0000100", -- 5-9
@@ -44,45 +45,79 @@ architecture Behavioral of Contador is
 
     
 begin
-    process (clk, reset)
-    begin
-        if reset = '1' then
-            count <= 0;
-            binary_digits <= "0000001";
-        elsif rising_edge(clk) then
-            if count < 99 then
-                count <= count + 1;
-            else
-                count <= 0;
-            end if;
-        end if;
-		  
-		  Dd <= count / 10;
-        Du <= count mod 10;
 
-        segments_d <= seven_segment(Dd);
-        segments_u <= seven_segment(Du);
+ freq_reducer: PROCESS (clk50, reset)
+    VARIABLE cont : NATURAL RANGE 0 to 5000000 := 0; 
+    BEGIN
+        IF    (reset='0') THEN    clk <='0';
+        ELSIF (clk50'EVENT) AND (clk50='1')  THEN
+            cont := cont +1;
+            IF cont = 5000000 THEN 
+                clk <= NOT clk;
+                cont := 0;
+            END IF;
+        END IF;
+	END PROCESS freq_reducer;
+
+	 
+
+    counter: process (clk, reset, count_dir)
+    begin
+	 
+		
+        if reset = '0' then
+				if count_dir = '1' then 
+					count <= 0;
+					binary_digits <= "0000001";
+				else
+					count <= 99;
+					binary_digits <= "1110111";
+				end if;
+        elsif rising_edge(clk) then
+				if count_dir = '1' then
+					if count < 99 then
+						 count <= count + 1;
+					else
+						 count <= 0;
+					end if;
+				else
+					if count > 0 then
+						 count <= count - 1;
+					else
+						 count <= 99;
+            end if;
+		
+        end if;
+		 end if;
 		  
+
+	
     end process;
 	 
-	 -- HEX6
-    A6 <= segments_u(0);
-    B6 <= segments_u(1);
-    C6 <= segments_u(2);
-    D6 <= segments_u(3);
-    E6 <= segments_u(4);
-    F6 <= segments_u(5);
-    G6 <= segments_u(6);
+		
+	 Dd <= count / 10;
+    Du <= count mod 10;
 
+    segments_d <= seven_segment(Dd);
+    segments_u <= seven_segment(Du);
+		  
+		  	 -- HEX6 
+    A6 <= segments_u(6);
+    B6 <= segments_u(5);
+    C6 <= segments_u(4);
+    D6 <= segments_u(3);
+    E6 <= segments_u(2);
+    F6 <= segments_u(1);
+    G6 <= segments_u(0);
+	 
     -- HEX7
-    A7 <= segments_d(0);
-    B7 <= segments_d(1);
-    C7 <= segments_d(2);
+    A7 <= segments_d(6);
+    B7 <= segments_d(5);
+    C7 <= segments_d(4);
     D7 <= segments_d(3);
-    E7 <= segments_d(4);
-    F7 <= segments_d(5);
-    G7 <= segments_d(6);
-	
+    E7 <= segments_d(2);
+    F7 <= segments_d(1);
+    G7 <= segments_d(0);
 
 
 
